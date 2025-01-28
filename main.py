@@ -1,5 +1,9 @@
 import numpy as np
 
+import sympy
+print(sympy.__version__)
+
+
 # 建立一個 NumPy 陣列
 array = np.array([1, 2, 3, 4, 5])
 print("NumPy Array:", array)
